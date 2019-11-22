@@ -1,0 +1,9 @@
+REGEDIT4
+
+;; Right click on folder
+[HKEY_CLASSES_ROOT\Directory\Shell\Dos Shell\command]
+@="cmd.exe /k title Shell & cd /d \"%1\""
+
+;; Right click in empty space inside folder
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\Dos Shell\command]
+@="cmd.exe /k title Shell & cd /d \"%V\""
