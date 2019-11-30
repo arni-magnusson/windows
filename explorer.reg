@@ -1,13 +1,17 @@
 REGEDIT4
 
+;; Right click on any file
+[HKEY_CLASSES_ROOT\Directory\Shell\Emacs\command]
+@="c:\gnu\emacs\bin\runemacs.exe \"%1\""
+
 ;; Right click on folder
 [HKEY_CLASSES_ROOT\Directory\Shell\Dos Shell\command]
 @="cmd.exe /k title Shell & cd /d \"%1\""
 [HKEY_CLASSES_ROOT\Directory\Shell\Emacs\command]
-@="e:\gnu\emacs\bin\runemacs.exe"
+@="c:\gnu\emacs\bin\runemacs.exe"
 
 ;; Right click empty space inside folder
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\Dos Shell\command]
 @="cmd.exe /k title Shell & cd /d \"%V\""
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\Emacs\command]
-@="e:\gnu\emacs\bin\runemacs.exe"
+@="c:\gnu\emacs\bin\runemacs.exe"
