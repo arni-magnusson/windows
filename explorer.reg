@@ -9,9 +9,13 @@ REGEDIT4
 @="cmd.exe /k title Shell & cd /d \"%1\""
 [HKEY_CLASSES_ROOT\Directory\Shell\Emacs\command]
 @="c:\gnu\emacs\bin\runemacs.exe \"%1\""
+[HKEY_CLASSES_ROOT\Directory\Shell\Ubuntu\command]
+@="wsl.exe --cd \"%1\""
 
 ;; Right click empty space inside folder
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\Dos Shell\command]
 @="cmd.exe /k title Shell & cd /d \"%V\""
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\Emacs\command]
 @="c:\gnu\emacs\bin\runemacs.exe \"%V\""
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\Ubuntu\command]
+@="wsl.exe"
