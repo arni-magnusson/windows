@@ -4,12 +4,12 @@ REM ============================================================================
 rem Uppercase so .bashrc looks similar
 
 :1.1  Machine
-set ADMB=f:/admb
-set APPS=f:/apps
-set GNU=f:/gnu
-set HOME=f:/home
+set ADMB=c:/admb
+set APPS=c:/apps
+set GNU=c:/gnu
+set HOME=c:/home
 rem MiKTeX w/backslashes
-set MIKTEX=f:\gnu\miktex\MIKTEX
+set MIKTEX=c:\gnu\miktex\MIKTEX
 
 :1.2  Shell
 set CYGWIN=nodosfilewarning
@@ -29,7 +29,7 @@ set EDITOR=%gnu%/emacs/bin/emacs
 
 :1.5  Program: gmt
 set GMT_SHAREDIR=%gnu%/graphics/gmt/share
-set GMT_USERDIR=%HOME%/gmt
+set GMT_USERDIR=%home%/gmt
 
 :1.6  Program: latex
 set TEXINPUTS=.//;%home%/latex/cls;%home%/latex/sty;
@@ -43,8 +43,8 @@ rem Workspace and history on F drive:
 rem f:/home/r/.RData, f:/home/r/.RBack, f:/home/r/.Rhistory
 set R_HISTFILE=%home%/r/.Rhistory
 set R_HISTSIZE=5000
-set R_LIBS_SITE=c:/home/r/site
-set R_LIBS_USER=c:/home/r/library
+set R_LIBS_SITE=%home%/r/site
+set R_LIBS_USER=%home%/r/library
 set TMPDIR=%temp%
 set TZ=UTC
 
