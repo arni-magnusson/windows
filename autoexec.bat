@@ -13,7 +13,8 @@ set MIKTEX=c:\gnu\miktex\MIKTEX
 
 :1.2  Shell
 set CYGWIN=nodosfilewarning
-set LS_OPTIONS=--color=auto --group-directories-first --time-style=+" %F %H:%M "
+set LS_OPTIONS=^
+--color=auto --group-directories-first -N --time-style=+" %F %H:%M "
 
 :1.3  Program: cmake
 rem set CMAKE_C_COMPILER=gcc
