@@ -33,7 +33,7 @@ set GMT_SHAREDIR=%gnu%/graphics/gmt/share
 set GMT_USERDIR=%home%/gmt
 
 :1.6  Program: latex
-set TEXINPUTS=.//;%home%/latex/cls;%home%/latex/sty;
+set TEXINPUTS=.//;%home%/latex/cls//;%home%/latex/sty//;
 set RGBDEF=%home%/latex/bin/latex2html/styles/rgb.txt
 
 :1.7  Program: r
